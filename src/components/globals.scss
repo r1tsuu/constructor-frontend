@@ -1,0 +1,44 @@
+@import './mixins.scss';
+
+body {
+  font-family: 'Montserrat';
+  margin: 0;
+}
+
+.image {
+  // object-fit: fill;
+  img {
+    width: 100%;
+  // object-fit: scale-down;
+height: 100%;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0 20px;
+  @include respond(tab) {
+    padding: 0 30px;
+  }
+  @include respond(laptop) {
+    padding: 0 80px;
+  }
+
+  @include respond(desktop) {
+    padding: 0 180px;
+    max-width: 1920px;
+  }
+
+  &__large {
+    margin: 0 auto;
+    max-width: 100%;
+    @include respond(desktop) {
+      max-width: 1920px;
+    }
+  }
+}
+
+.grid {
+  
+}
