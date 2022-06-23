@@ -1,7 +1,7 @@
 import classNames from "classnames/bind";
 import { useState } from "react";
-import { builder } from "../../utils/constants";
 
+import { builder } from "../../utils/constants";
 import { fields } from "./constants";
 import { GalleryCaroucel } from "./GalleryCaroucel";
 
