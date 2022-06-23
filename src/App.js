@@ -1,11 +1,11 @@
 import "./components/globals.scss";
-import { SliderWelcomeTest } from "./tests";
+import { GalleryTest } from "./tests";
 
 export const App = () => {
   return (
     <>
       <div>
-        <SliderWelcomeTest />
+        <GalleryTest />
       </div>
     </>
   );

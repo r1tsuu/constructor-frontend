@@ -1,5 +1,24 @@
-import { SliderWelcome } from "../components";
+import { Gallery } from "../components";
 
-export const SliderWelcomeTest = () => {
-  return <SliderWelcome />;
+const galleryProps = {
+  title: "Titles",
+  subTitle: "SubTitle",
+  variant: "first",
+  gallery: [
+    {
+      buttonName: "Слайдер1",
+      list: [],
+    },
+    {
+      buttonName: "Слайдер2",
+      list: [],
+    },
+  ],
+};
+export const GalleryTest = () => {
+  return (
+    <>
+      <Gallery {...galleryProps} /> /
+    </>
+  );
 };

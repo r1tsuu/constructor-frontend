@@ -1,1 +1,1 @@
-export { SliderWelcome } from "./slider-welcome";
+export { Gallery } from "./gallery";
